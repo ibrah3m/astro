@@ -1,4 +1,4 @@
-import rss from '@astrojs/rss';
+import rss, { pagesGlobToRssItems } from '@astrojs/rss';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
 export const get = ({ site }) =>
@@ -6,5 +6,5 @@ export const get = ({ site }) =>
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
 		site,
-		items: import.meta.glob('./blog/**/*.{md,mdx}'),
+		items: pagesGlobToRssItems(import.meta.glob('./blog/**/*.{md,mdx}')),
 	});
