@@ -1,5 +1,18 @@
 # @astrojs/image
 
+## 1.0.0-beta.3
+
+### Patch Changes
+
+- [#5788](https://github.com/withastro/astro/pull/5788) [`006405d33`](https://github.com/withastro/astro/commit/006405d33c2b8eb1307cb84161659428e43efa51) Thanks [@MoustaphaDev](https://github.com/MoustaphaDev)! - - Refactor types to support props auto-completion for the `Image` and `Picture` components.
+
+  - Pass previously missing `alt` prop to the `getPicture` function
+
+- [#5871](https://github.com/withastro/astro/pull/5871) [`1bd42c6b2`](https://github.com/withastro/astro/commit/1bd42c6b2a072210411cffb42dcc80170b9a618b) Thanks [@Princesseuh](https://github.com/Princesseuh)! - Fix the integration failing to work properly on Node 18+
+
+- Updated dependencies [[`e818cc046`](https://github.com/withastro/astro/commit/e818cc0466a942919ea3c41585e231c8c80cb3d0), [`8c100a6fe`](https://github.com/withastro/astro/commit/8c100a6fe6cc652c3799d1622e12c2c969f30510), [`3a00ecb3e`](https://github.com/withastro/astro/commit/3a00ecb3eb4bc44be758c064f2bde6e247e8a593), [`1ca81c16b`](https://github.com/withastro/astro/commit/1ca81c16b8b66236e092e6eb6ec3f73f5668421c), [`b66d7195c`](https://github.com/withastro/astro/commit/b66d7195c17a55ea0931bc3744888bd4f5f01ce6)]:
+  - astro@2.0.0-beta.3
+
 ## 1.0.0-beta.2
 
 ### Major Changes
